@@ -2,7 +2,6 @@
     --main-font:"Roboto", sans-serif;
     --secondary-font:"Raleway", sans-serif;
     --accent-color:#2196F3;
-    --
 }
 
 .list{
@@ -14,6 +13,7 @@
 body {
     font-family:var(--main-font)
 }
+
 /* ===LOGOTYPE===*/
 .logo{
     font-family: var(--secondary-font);
@@ -24,7 +24,7 @@ body {
     color: #000
 }
 .logo-blue{
-    color: var(--accent-color)
+    color: #2196F3
 }
 /* ===END LOGOTYPE===*/
 /*===HEADER===*/
@@ -150,24 +150,27 @@ body {
 /*===AND TEAM===*/
 /*===FOOTTER===*/
 .logo-foot{
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     /*color: #FFFFFF;*/
 }
-.address{
+.adresa{
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     /*color: #FFFFFF;*/
 }
-.address:hover,
-.address:focus{
+.adresa:hover,
+.adresa:focus{
     color: var(--accent-color);
 }
 .contacts{
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -182,6 +185,9 @@ body {
 
 
 /*=====PORTFOLIO=====*/
+.menu-link.current {
+    color: #2196f3;
+}
 .btn-list{
     font-weight: 500;
     font-size: 16px;
